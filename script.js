@@ -16,8 +16,8 @@ function hitung() {
     keterangan = "Obecity &#128552";
   }
 
-  document.getElementById("bmi").innerHTML = "Hasil  : " + bmi.toFixed(2);
-  document.getElementById("keterangan").innerHTML = "Hasil : " + keterangan;
+  document.getElementById("bmi").innerHTML = "Hasil BMI : " + bmi.toFixed(2);
+  document.getElementById("keterangan").innerHTML = "Status : " + keterangan;
 
   formInput.reset();
 }

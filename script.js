@@ -7,13 +7,13 @@ function hitung() {
 
   bmi = berat / (tinggi * tinggi);
   if (bmi < 18.5) {
-    keterangan = "Under Wight";
+    keterangan = "Kamu Kurus &#128518;";
   } else if ((bmi >= 18.5) & (bmi <= 24.9)) {
-    keterangan = "Normal Weight";
+    keterangan = "Berat Badanmu Normal kok &#128515";
   } else if (bmi >= 25 && bmi <= 29.9) {
-    keterangan = "Over Weight";
+    keterangan = "Kamu Gemuk &#128551";
   } else if (bmi > 30) {
-    keterangan = "Obecity";
+    keterangan = "Kamu Obesitas &#128552";
   } // Else If untuk mencari kondisi yang diinginkan
 
   document.getElementById("bmi").innerHTML = "Hasil  : " + bmi.toFixed(2);

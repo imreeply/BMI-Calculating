@@ -49,11 +49,15 @@ label {
 input {
   width: 400px;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 10px 0;
   display: inline-block;
   border: 1px solid rgb(173, 173, 173);
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.field {
+  padding: 0.3rem;
 }
 
 .btn {

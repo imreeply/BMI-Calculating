@@ -1,4 +1,5 @@
-var tinggi, berat, keterangan, bmi;
+let formInput = document.querySelector("#formInput");
+let tinggi, berat, keterangan, bmi;
 function hitung() {
   tinggi = parseFloat(document.getElementById("tinggi").value);
   tinggi /= 100;
@@ -17,4 +18,6 @@ function hitung() {
 
   document.getElementById("bmi").innerHTML = "Hasil  : " + bmi.toFixed(2);
   document.getElementById("keterangan").innerHTML = "Status : " + keterangan; // Nampilin Hasil dari Else if
+
+  formInput.reset();
 }

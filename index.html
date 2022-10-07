@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h3>BMI Calculating</h3>
+        </div>
+        <div class="card-body">
+          <div class="form">
+            <label>Tinggi Badan(cm)</label>
+            <input type="number" name="tinggi" id="tinggi" class="control-form" required="" placeholder="Masukkan Tinggi Badan" />
+          </div>
+          <div class="form">
+            <label>Berat Badan(kg) </label>
+            <input type="number" name="berat" id="berat" class="control-form" required="" placeholder="Masukkan Berat Badan" />
+          </div>
+          <div class="grup">
+            <button onclick="hitung()" class="btn btn-primary"><b>Hitung</b></button>
+          </div>
+          <h4 id="bmi"></h4>
+          <h5 id="keterangan"></h5>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
+</html>

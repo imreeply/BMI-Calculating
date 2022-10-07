@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins";
+  background-image: url(/img/bg.png);
+}
+
+.container {
+  padding: 5%;
+  padding-left: 30%;
+}
+
+.card {
+  text-align: center;
+  height: 450px;
+  width: 500px;
+  background: #191d5270;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header h3 {
+  text-align: center;
+  padding-top: 1.2rem;
+  background: linear-gradient(90deg, #6994be, #bcbde5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Kaushan Script", cursive;
+}
+
+.card-body .form {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.form {
+  padding: 0.5rem;
+}
+
+label {
+  color: white;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+input {
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #5558b6;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-color: #5558b6;
+  border-width: 5px;
+  border-radius: 100px;
+  font-size: 14px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.btn b {
+  color: whitesmoke;
+}
+
+h5 {
+  color: rgb(255, 255, 255);
+}
+h4 {
+  color: rgb(255, 255, 255);
+}
